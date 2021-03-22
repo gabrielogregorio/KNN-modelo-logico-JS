@@ -1,0 +1,69 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  border-style: none;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  border: 0;
+  border-collapse: collapse;
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+h1 {
+  padding-top: 20px;
+  font-size: 2.4rem;
+}
+
+p {
+  font-size: 1.4rem;
+  padding-bottom: 50px;
+}
+
+th {
+  background-color: #212529;
+  color: #eeeeee;
+  padding: 15px;
+}
+
+tr:nth-child(even) {
+  background-color: #eeeeee;
+  color: #212529;
+}
+
+tr:nth-child(odd) {
+  background-color: #ffffff;
+  color: #212529;
+}
+
+td {
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+button {
+  background-color: #212529;
+  padding: 10px;
+  color: #eeeeee;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #212529;
+  padding: 10px;
+  color: rgb(134, 188, 238);
+  border-radius: 5px;
+}
+
+#filme_selecionado {
+  background-color: rgb(134, 188, 238);
+  font-weight: bolder;
+}
+
+#filme_selecionado button {
+  background-color: rgb(134, 188, 238);
+  color: rgb(134, 188, 238);
+}

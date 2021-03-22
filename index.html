@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+   <head>
+      <meta charset="utf-8">
+      <title>Resolução lógica fuzzy</title>
+      <link rel="stylesheet" type="text/css" href="style.css">
+      <script type="text/javascript" src="logica.js"></script>
+
+   </head>
+   <body id="body" onload="linhaClicada(1)">
+      <h1>Escolha um filme</h1>
+      <p>Filmes semelhantes serão exibidos em ordem</p>
+      <table id="table" style="width:100%">
+         <tr>
+            <th>Filme</th>
+            <th>Violência</th>
+            <th>Ação</th>
+            <th>Romance</th>
+            <th>Comédia</th>
+            <th>Recomendações</th>
+            <th></th>
+         </tr>
+         <tr id="filme_selecionado">
+            <td>As Patricinhas de Beverly Hills</td>
+            <td>0.0</td>
+            <td>0.3</td>
+            <td>0.3</td>
+            <td>0.8</td>
+            <td>0</td>
+            <td><button onclick="linhaClicada(1)">Escolher</button></td>
+         </tr>
+         <tr>
+            <td>Derepente 30</td>
+            <td>0.0</td>
+            <td>0.2</td>
+            <td>0.1</td>
+            <td>0.7</td>
+            <td>0</td>
+            <td><button onclick="linhaClicada(2)">Escolher</button></td>
+         </tr>
+         <tr>
+            <td>Ela é demais pra mim</td>
+            <td>0.0</td>
+            <td>0.1</td>
+            <td>0.4</td>
+            <td>0.6</td>
+            <td>0</td>
+            <td><button onclick="linhaClicada(3)">Escolher</button></td>
+         </tr>
+         <tr>
+            <td>Simplesmente Acontece</td>
+            <td>0.0</td>
+            <td>0.2</td>
+            <td>0.8</td>
+            <td>0.3</td>
+            <td>0</td>
+            <td><button onclick="linhaClicada(4)">Escolher</button></td>
+         </tr>
+         <tr>
+            <td>EsSe Fosse Verdade</td>
+            <td>0.1</td>
+            <td>0.2</td>
+            <td>0.8</td>
+            <td>0.4</td>
+            <td>0</td>
+            <td><button onclick="linhaClicada(5)">Escolher</button></td>
+         </tr>
+         <tr>
+            <td>Wall-E</td>
+            <td>0.0</td>
+            <td>0.5</td>
+            <td>0.5</td>
+            <td>0.5</td>
+            <td>0</td>
+            <td><button onclick="linhaClicada(6)">Escolher</button></td>
+         </tr>
+         <tr>
+            <td>Divergente: Insurgente</td>
+            <td>0.3</td>
+            <td>0.8</td>
+            <td>0.4</td>
+            <td>0.1 </td>
+            <td>0</td>
+            <td><button onclick="linhaClicada(7)">Escolher</button></td>
+         </tr>
+         <tr>
+            <td>Guardiões da Galáxia</td>
+            <td>0.2</td>
+            <td>0.5 </td>
+            <td>0.2</td>
+            <td>0.2</td>
+            <td>0</td>
+            <td><button onclick="linhaClicada(8)">Escolher</button></td>
+         </tr>
+         <tr>
+            <td>Capitão América 2: O Soldado Invernal</td>
+            <td>0.2</td>
+            <td>0.8</td>
+            <td>0.3</td>
+            <td>0.1</td>
+            <td>0</td>
+            <td><button onclick="linhaClicada(9)">Escolher</button></td>
+         </tr>
+         <tr>
+            <td>Assassinos por natureza</td>
+            <td>0.9</td>
+            <td>0.8</td>
+            <td>0.3</td>
+            <td>0.1</td>
+            <td>0</td>
+            <td><button onclick="linhaClicada(10)">Escolher</button></td>
+         </tr>
+         <tr>
+            <td>Rambo IV</td>
+            <td>1.0</td>
+            <td>0.9</td>
+            <td>0.1</td>
+            <td>0.3</td>
+            <td>0</td>
+            <td><button onclick="linhaClicada(11)">Escolher</button></td>
+         </tr>
+         <tr>
+            <td>Scarface</td>
+            <td>1.0</td>
+            <td>1.0</td>
+            <td>0.2</td>
+            <td>0</td>
+            <td>0</td>
+            <td><button onclick="linhaClicada(12)">Escolher</button></td>
+         </tr>
+      </table>
+   </body>
+</html>
